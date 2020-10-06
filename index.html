@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Draggable Slider</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--For position image slider-->
+    <div class="slider">
+      <!--The wrapper of all the slides whose overflow will be hidden and width will be 100%-->
+      <div class="wrapper">
+        <!--The width of the slides divison will be (no. of slides)*100% and it'll be a flexbox-->
+        <div class="slides">
+          <!--Each slide will have a width of 100%-->
+          <div class="slide slide--1">Slide 1</div>
+          <div class="slide slide--2">Slide 2</div>
+          <div class="slide slide--3">Slide 3</div>
+          <div class="slide slide--4">Slide 4</div>
+          <div class="slide slide--5">Slide 5</div>
+        </div>
+        <!--This is the wrapper of the controllers of slideshow-->
+        <div class="radio">
+          <!--dots--active means the current showing slide, (no. of slides) = (no. of dots)-->
+          <span class="dots dots--active" id="dot-1"></span>
+          <span class="dots" id="dot-2"></span>
+          <span class="dots" id="dot-3"></span>
+          <span class="dots" id="dot-4"></span>
+          <span class="dots" id="dot-5"></span>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
