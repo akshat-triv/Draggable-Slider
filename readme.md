@@ -1,6 +1,6 @@
-# Responsive, Touch Senstive and Draggable Image Slider
+# Responsive, Touch Sensitive and Draggable Image Slider
 
-As title says, this image slider is completely responsive,draggble and touch-senstive. You can use it in your projects directly. <br>
+As title says, this image slider is completely responsive,draggble and touch-sensitive. You can use it in your projects directly. <br>
 
 The code is simple to understand and I've added comments to make it more readable.<br>
 
